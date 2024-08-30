@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div>
-      {!isLogin ? (
+      {isLogin ? (
         <Blogs setIsLogin={setIsLogin} />
       ) : (
         <div className="forms">
